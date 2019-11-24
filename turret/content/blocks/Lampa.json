@@ -1,0 +1,18 @@
+{
+ "type": "LightBlock",
+ "name": "Lampa",
+ "description": "sver",
+ "size": 2,
+ "brightness": 0.5,
+ "radius": 600,
+     "consumes": {
+      "power": 5.0,
+  }
+     "requirements": [
+  { "item": "silicon", "amount": 60 },
+  { "item": "titanium", "amount": 125 },
+  { "item": "lead", "amount": 173 }
+ ],
+ "category": "production",
+ "research": "duo"
+}

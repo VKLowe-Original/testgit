@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Olovo Forge",
+	"description": "hi mom.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "olovo", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "olovos", "amount": 3 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 2.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 90 },
+		{ "item": "titanium", "amount": 60 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "copper", "amount": 146 },
+		{ "item": "olovos", "amount": 140 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

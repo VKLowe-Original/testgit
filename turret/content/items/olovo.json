@@ -1,8 +1,0 @@
-{
-	"type": "material",
-	"name": "Олово",
-	"description": "Ресурс",
-	"hardness": 2,
-	"cost": 2.0,
-	"color": "ffffff"
-}
